@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	height: 100%;
+	background-image: url('../Pictures/bg.jpg');
+	border: solid black;
+}
+
+@font-face{
+	font-family: bomb;
+	src: url('../Font/king.ttf');
+}
+
+@font-face{
+	font-family: Aurora;
+	src: url('../Font/Aurora.ttf');
+}
+
+h1 h{
+	color: #000;
+	letter-spacing: 80px;
+	font-size: 100px;
+	font-family: bomb;
+}
+
+h1{
+	margin: 0;
+}
+
+marquee{
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 40px;
+}
+
+#menu{
+	width: 100%;
+	border-top: solid;
+	border-bottom: solid;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	/*border-collapse: collapse;*/
+}
+
+#border_help{
+	border-left: solid black;
+}
+
+#menu td:hover{
+	background-color: #bbb;
+	color: #000;
+	font-style: italic;
+	cursor: pointer;
+}
+
+#main {
+	margin: 25px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+	width: 50%;
+	min-height: 200px;
+}
+
+#title{
+	font-family: Aurora;
+	font-size: 25px;
+	letter-spacing: 4px;
+	padding-bottom: 30px;
+	border-bottom: solid 2px grey;
+}

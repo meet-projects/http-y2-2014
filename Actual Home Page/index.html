@@ -1,13 +1,20 @@
 <html>
 	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<title>
 			HTTP
 		</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+		<script>
+		$("#main").fadeOut(1000);
+		$( document ).ready(function() {
+			$("#header").hover(function() {$("#main").fadeIn(1000);}, function() {	$("#main").fadeOut(1000);});
+			});
+		</script>
 	</head>
 	<body>
 		<center>
-			<h1>
+			<h1 id="header">
 				<h>HTTP</h>
 				<br>
 				<marquee>

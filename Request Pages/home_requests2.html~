@@ -33,47 +33,64 @@
 <br>
 			<div class="request">
 				<span class = "home_requests">
-					Dress<br>
+					Couch<br>
 				</span>
 				<span class="details">
-					054-763-9238<br>Celine, Nazareth, 17\05
+					054-239-5898<br>amir, nazareth, 03/08
 				</span>
 			</div>
 		
 			<div class="request">
 				<span class = "home_requests">
-					Skirt
+					Lamp
 				</span>
 		
 				<span class="details">
-					050-576-5427<br> Caroline, Jerusalem, 07/11
-				</span>
-			</div>
-	
-			<div class="request">
-				<span class = "home_requests">
-					Heels
-				</span>
-		
-				<span class="details">
-					052-842-9523 <br> Yana, Jerusalem, 07\06
+					054-919-5414
+					<br>
+					Brit, jerusalem, 02/04
 				</span>
 			</div>
 	
 			<div class="request">
 				<span class = "home_requests">
-					Shorts
+					Bed
 				</span>
 		
 				<span class="details">
-					052-742-9834
-			<br>Talia, Jerusalem, 08/12
+					052-526-2234
+					<br>
+					aseel, Jerusalem, 09/20
+				</span>
+			</div>
+	
+			<div class="request">
+				<span class = "home_requests">
+					Table
+				</span>
+		
+				<span class="details">
+					052-454-2344
+					<br>
+					Gilad, Jerusalem, 08,12
+				</span>
+			</div>
+
+			<div class="request">
+				<span class = "home_requests">
+					Door
+				</span>
+		
+				<span class="details">
+					059-092-1858
+					<br>
+					Rotem, Jerusalem, 03/08
 				</span>
 			</div>
 		</div>
 		<div id="Right">
 			Right side (Post Form)
-			<form class="request_form" action="women_requests2.html">
+			<form class="request_form">
 				Name:<input type="text" class="form">
 				<br><br>
 				Date:<input type="text">
@@ -83,10 +100,6 @@
 				Item:<input type="text">
 				<br><br>
 				Phone:<input type="text">
-
-				<br><br>
-
-				<input type="submit">
 			</form>
 		</div>
 	</body>

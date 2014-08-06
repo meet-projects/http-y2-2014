@@ -21,7 +21,7 @@
 					<a href = "../Categories/categories.html">Requests</a
 				</td>
 				<td id="border_help">
-						<a href = "../Categories/categories.html">Instructions</a
+						<a href = "../Categories/categories.html">Istructions</a
 				</td>
 			</tr>
 		</table>
@@ -70,10 +70,22 @@
 			<br>Talia, Jerusalem, 08/12
 				</span>
 			</div>
+
+			<div class="request">
+				<span class = "home_requests">
+					Necklace
+				</span>
+		
+				<span class="details">
+					050-204-2014
+					<br>
+					Jenni, Nazareth, 9/10
+				</span>
+			</div>
 		</div>
 		<div id="Right">
 			Right side (Post Form)
-			<form class="request_form" action="women_requests2.html">
+			<form class="request_form">
 				Name:<input type="text" class="form">
 				<br><br>
 				Date:<input type="text">
@@ -83,10 +95,6 @@
 				Item:<input type="text">
 				<br><br>
 				Phone:<input type="text">
-
-				<br><br>
-
-				<input type="submit">
 			</form>
 		</div>
 	</body>

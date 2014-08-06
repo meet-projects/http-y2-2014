@@ -41,7 +41,6 @@ marquee{
 	color: #000;
 	font-size: 30px;
 position:absolute;
-z-index:-2;
 }
 
 #border_help{
@@ -145,9 +144,25 @@ z-index:-2;
 #main
 {
 	position:absolute;
+	margin-top:70px;
 }
 #header
 {
 font-size:50px;
 color:#A52A2A;
+}
+
+#wrw
+{
+	margin: 25px;
+	margin-top:60px;
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: -15px 15px 10px grey;
+	background-color: white;
+	width: 65%;
+	min-height: 300px;
+	/*float: left;*/
+	overflow: hidden;
+	position:absolute;
 }

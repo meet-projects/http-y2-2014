@@ -20,9 +20,8 @@
 				<td>
 					<a href = "../Categories/categories.html">Requests</a>
 				</td>
-|
-				<td>
-					<a href = "http://youtube.com">Instructions</a>
+				<td id="border_help">
+					<a href = "http://youtube.com" target="_blank">Instructions</a>
 				</td>
 			</tr>
 		</table>
@@ -39,7 +38,7 @@
 
 					<td>
 						
-						<a href = "men_requests.html">
+						<a href="../Request Pages/men_requests.html">
 
 							<img src = "../Pictures/men.gif" />
 
@@ -49,7 +48,7 @@
 
 					<td>
 						
-						<a href = "women_requests.html">
+						<a href = "../Request Pages/women_requests.html">
 
 							<img src = "../Pictures/women.gif" />
 
@@ -63,7 +62,7 @@
 
 				<td>
 						
-						<a href = "kids_requests.html">
+						<a href = "../Request Pages/kids_requests.html">
 
 							<img src = "../Pictures/kids.jpeg" />
 
@@ -73,7 +72,7 @@
 
 					<td>
 						
-						<a href = "house_requests.html">
+						<a href = "../Request Pages/home_requests.html">
 
 							<img src = "../Pictures/avengers.jpg" />
 

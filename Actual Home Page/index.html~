@@ -42,8 +42,6 @@ color:#A52A2A;
 }
 		</style>
 
-		<script src="../javascript/script.js">
-		</script>
 
 	</head>
 	<body>
@@ -70,21 +68,30 @@ color:#A52A2A;
 		</table>
 		
 		<div id="main">
-			<div id="title">Who are we?</div>
+			<div id="title">Who are we? </div>
+			<p> As we think about the poor, the abused, the helpless, what can our compassion accomplish for them?
+
+			<br>A lot. No individual can solve the world's needs. Although, perhaps we could do something. People helping people, communities helping communities; delivering energy and resource impacting the lives of the poor.
+
+			<br>And that's what we did! We created a website to try and make a change.
+
+			<br>Help Treat The Poor is an online donation and request service to help the less fortuate
+			</p>
 		</div>
 		<span id="left">
 <h1 id="header">
-Homepage!
+Welcome to our Website!
 </h1>
-<p>asdfasdfasddfa;osidfha;osdih
+<p> Donate and make a change
 </p>
-<p>asdfdfasluhas9wh
-</p>
+
 </span>
 		<span id="Right">
 			<img src="../Pictures/Example.png" width="100%">
 
 		</span>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="../javascript/script.js">
+		</script>
 	</body>
 </html>

@@ -1,13 +1,61 @@
 <html>
 	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<title>
 			HTTP
 		</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<style>
+		#wraper
+{
+		position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    left: 0;
+		    top: 0;
+		    background: black;
+		opacity:0;
+		    z-index: -1;
+}
+#Right
+{
+	position:absolute;
+	z-index:-2;
+	width:300px;
+	margin-left:70%;
+}
+#left
+{
+	width:40%;
+	margin-left:400px;
+	position:absolute;
+	margin-top:50px;
+	z-index:-2;
+}
+#main
+{
+	position:absolute;
+}
+#header
+{
+font-size:50px;
+color:#A52A2A;
+}
+		</style>
+		<script>
+$( "#main" ).ready(function() {
+		$("#main").fadeOut(0);});
+		$( document ).ready(function() {
+			$("#header").hover(function() {$("#main").fadeIn(1000);$("#wraper").fadeTo(1000, 0.9);}, function() {$("#main").fadeOut(1000);$("#wraper").fadeTo(1000, 0);});
+			});
+		</script>
+
 	</head>
 	<body>
+<div id="wraper">
+</div>
 		<center>
-			<h1>
+			<h1 id="header">
 				<h>HTTP</h>
 				<br>
 				<marquee>
@@ -29,9 +77,18 @@
 		<div id="main">
 			<div id="title">Who are we?</div>
 		</div>
-		<div id="Right">
-			<img src="../pictures/Example.png" width="100%">
+		<span id="left">
+<h1 id="header">
+Homepage!
+</h1>
+<p>asdfasdfasddfa;osidfha;osdih
+</p>
+<p>asdfdfasluhas9wh
+</p>
+</span>
+		<span id="Right">
+			<img src="../Pictures/Example.png" width="100%">
 
-		</div>
+		</span>
 	</body>
 </html>

@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	height: 100%;
-	background-image: url('../Pictures/bg.jpg');
+	min-height: 100%;
+	overflow: auto;
+	background-image: url('../Pictures/bg2.jpg');
 	border: solid black;
 }
 
@@ -39,7 +40,6 @@ marquee{
 	text-align: center;
 	color: #000;
 	font-size: 30px;
-	/*border-collapse: collapse;*/
 }
 
 #border_help{
@@ -56,16 +56,24 @@ marquee{
 #main {
 	margin: 25px;
 	padding: 15px;
-	border-radius: 10px;
+	border-radius: 20px;
+	box-shadow: -15px 15px 10px #333;
 	background-color: white;
-	width: 50%;
-	min-height: 200px;
+	width: 65%;
+	min-height: 300px;
+	float: left;
+	overflow: hidden;
 }
 
 #title{
 	font-family: Aurora;
 	font-size: 25px;
 	letter-spacing: 4px;
-	padding-bottom: 30px;
-	border-bottom: solid 2px grey;
+	border-bottom: solid 1px;
+	border-bottom-style: dashed;
+}
+
+#right{
+	margin: 30px;
+	overflow: hidden;
 }

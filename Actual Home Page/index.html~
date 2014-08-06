@@ -23,10 +23,10 @@
 		<table id="menu">
 			<tr>
 				<td>
-					Requests
+					<a href = "../Categories/categories.html">Requests</a>
 				</td>
 				<td id="border_help">
-					Instructions
+					<a href = "http://youtube.com">Instructions</a>
 				</td>
 			</tr>
 		</table>

@@ -40,6 +40,8 @@ marquee{
 	text-align: center;
 	color: #000;
 	font-size: 30px;
+position:absolute;
+z-index:-2;
 }
 
 #border_help{

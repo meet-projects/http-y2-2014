@@ -2,17 +2,9 @@ body{
 	margin: 0;
 	min-height: 100%;
 	overflow: auto;
-	background-image :url('../Pictures/bg5.jpg');
+	background-image: url('../Pictures/bg2.jpg');
 	border: solid black;
 }
-
-#background-image2 {
-		 background-image:url('../Pictures/rsz_1collage-2014-08-05.jpg');
-
-
-		
-}
-
 a:visited{
 	color:blue;
 }

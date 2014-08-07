@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-	alert("jasd");
 	$(".request").hover(function() {
 		$(this).animate({"color":"blue"},0);
 	}

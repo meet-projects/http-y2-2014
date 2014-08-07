@@ -1,8 +1,9 @@
 $( document ).ready(function() {
+	alert("jasd");
 	$(".request").hover(function() {
-		$(this).animate({"backgroundColor":"blue"});
+		$(this).animate({"color":"blue"},0);
 	}
 	,function() {
-		$(this).animate({"backgroundColor":"black"});
+		$(this).animate({"color":"black"},0);
 	});
 });

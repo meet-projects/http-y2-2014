@@ -93,6 +93,11 @@ position:absolute;
                 border-radius: 5px;
                 min-height: 60px;
 		padding: 20px;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
             }
 
 .home_requests{
@@ -172,3 +177,13 @@ a
 {
 text-decoration:none;
 }
+.request:hover
+{
+background-color:#585858;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+

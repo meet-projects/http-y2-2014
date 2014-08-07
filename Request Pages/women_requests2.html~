@@ -8,7 +8,7 @@
 	<body>
 		<center>
 			<h1>
-				<h>HTTP</h>
+				<a href="../Actual Home Page/index.html"><h>HTTP</h></a>
 				<br>
 				<marquee>
 					Help Treat The Poor
@@ -21,7 +21,7 @@
 					<a href = "../Categories/categories.html">Requests</a
 				</td>
 				<td id="border_help">
-						<a href = "../Categories/categories.html">Istructions</a
+						<a href = "../Categories/categories.html">Instructions</a
 				</td>
 			</tr>
 		</table>

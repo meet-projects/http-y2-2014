@@ -78,7 +78,7 @@
 		</div>
 		<div id="Right">
 			Right side (Post Form)
-			<form class="request_form">
+			<form class="request_form" action="kids_requests2.html">
 				Name:<input type="text" class="form">
 				<br><br>
 				Date:<input type="text">
@@ -88,6 +88,10 @@
 				Item:<input type="text">
 				<br><br>
 				Phone:<input type="text">
+
+				<br><br>
+
+				<input type="submit">
 			</form>
 		</div>
 	</body>

@@ -5,7 +5,9 @@ body{
 	background-image: url('../Pictures/bg2.jpg');
 	border: solid black;
 }
-
+a:visited{
+	color:blue;
+}
 @font-face{
 	font-family: bomb;
 	src: url('../Font/king.ttf');
@@ -165,4 +167,8 @@ color:#A52A2A;
 	/*float: left;*/
 	overflow: hidden;
 	position:absolute;
+}
+a
+{
+text-decoration:none;
 }

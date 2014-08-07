@@ -1,5 +1,8 @@
 <html>
 	<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="../javascript/requests.js">
+		</script>
 		<title>
 			HTTP
 		</title>
@@ -8,7 +11,7 @@
 	<body>
 		<center>
 			<h1>
-				<h>HTTP</h>
+				<a href="../Actual Home Page/index.html"><h>HTTP</h></a>
 				<br>
 				<marquee>
 					Help Treat The Poor
@@ -31,7 +34,7 @@
 				Requests
 			</div>
 <br>
-			<div class="request">
+			<div class="request" style="z-index:2">
 				<span class = "home_requests">
 					Couch<br>
 				</span>
@@ -78,7 +81,7 @@
 		</div>
 		<div id="Right">
 			Right side (Post Form)
-			<form class="request_form">
+			<form class="request_form" action="home_requests2.html">
 				Name:<input type="text" class="form">
 				<br><br>
 				Date:<input type="text">
@@ -88,6 +91,10 @@
 				Item:<input type="text">
 				<br><br>
 				Phone:<input type="text">
+
+				<br><br>
+
+				<input type="submit">
 			</form>
 		</div>
 	</body>
